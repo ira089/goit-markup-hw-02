@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto' ;
+    color: #000;
+    
+   
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --iris: #4D5AE5;
+    --navyblue: #2E2F42;
+    --white: #FFF;
+    --slate: #434455
+
+}
+
+.header {
+
+}
+
+.header-logo {
+    font-family: Raleway;
+    font-size: 18px;
+     font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navyblue, #2E2F42)
+}
+.header-web {
+    color: var(--iris, #4D5AE5);
+}
+           
+
+
+.header-menu {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  
+    
+}
+
+.header-add {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-effect {
+    background: var(--navyblue, #2E2F42);
+}
+
+.effect-title {
+    color: var(--white, #FFF);
+    text-align: center;
+     font-size: 56px;
+     line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.effect-button {
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.section-strategy {}
+
+.title-three {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.text {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-doing {
+
+}
+
+.title-two {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team {}
