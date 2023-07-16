@@ -16,15 +16,16 @@ a {
     --iris: #4D5AE5;
     --navyblue: #2E2F42;
     --white: #FFF;
-    --slate: #434455
-
+    --slate: #434455;
+    --cloud: #F4F4FD;
+    --ocean: #404BBF;
 }
-
+/*  ============================================================   */
 .header {
 
 }
 
-.header-logo {
+.logo {
     font-family: Raleway;
     font-size: 18px;
      font-weight: 800;
@@ -33,7 +34,10 @@ a {
     text-transform: uppercase;
     color: var(--navyblue, #2E2F42)
 }
-.header-web {
+.logo-wheit {
+    color: var(--cloud, #F4F4FD);
+}
+.web {
     color: var(--iris, #4D5AE5);
 }
            
@@ -48,13 +52,19 @@ a {
     
 }
 
-.header-add {
+.address {
     color: var(--slate, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
+.address:hover,
+.address:focus {
+    color: var(--slate, #434455);
+}
+/*================================================================*/
 .section-effect {
     background: var(--navyblue, #2E2F42);
 }
@@ -108,3 +118,34 @@ a {
     text-transform: capitalize;
 }
 .team {}
+/*===============================================================*/
+.footer {
+    background: var(--navyblue, #2E2F42);
+}
+
+.footer-text {
+    color: var(--cloud, #F4F4FD);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*==============================================*/
+.portfolio-button{
+    color: var(--iris, #4D5AE5);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height:1,5;
+    letter-spacing: 0.04em;
+    background: var(--cloud, #F4F4FD);
+    font-family: inherit;
+    cursor: pointer;
+
+}
+.portfolio-button:hover,
+.portfolio-button:active,
+.portfolio-button:focus {
+ 
+    background: var(--ocean, #404BBF);
+    color: var(--white, #FFF);
+}
